@@ -1,0 +1,39 @@
+#about{
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    top:500px;
+    left: 25%;
+    font-size: 40px;
+    font-family: text3;
+    margin:0px;
+    padding: 0px;
+    
+}
+
+@font-face {
+    font-family: text3;
+    src: url("C:\Users\Klokk\Desktop\abiut\app\src\fonts\Pergola Free.otf");
+}
+@media only screen and (max-width: 600px) {
+    #about{
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        top:400px;
+        left: 0;
+        font-size: 40px;
+        height: 500px;
+        font-family: text3;
+        margin:0px;
+        padding: 0px;
+        word-wrap:break-word;
+        
+    }
+    #helper{
+        margin-left: 150px;
+    }
+    #helper2{
+        margin-left: 90px;
+    }
+  }

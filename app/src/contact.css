@@ -1,0 +1,45 @@
+#contact{
+    
+    position: relative;
+    top:700px;
+    left: 45%;
+
+    font-size: 40px;
+    font-family: text4;
+    margin:0px;
+    padding: 0px;
+    width: 900px;
+}
+#jol{
+    font-family: text3;
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: text3;
+    src: url("C:\Users\Klokk\Desktop\abiut\app\src\fonts\Pergola Free.otf");
+}
+@font-face {
+    font-family: text4;
+    src: url("C:\Users\Klokk\Desktop\abiut\app\src\fonts\Sweet Bread-LightItalic.ttf");
+}
+#t2{
+    position: relative;
+    right:85px;
+    margin:0px;
+    padding: 0px;
+}
+@media only screen and (max-width: 600px) {
+    #contact{
+    
+        position: relative;
+        top:600px;
+        left: 26%;
+    
+        font-size: 40px;
+        font-family: text4;
+        margin:0px;
+        padding: 0px;
+        width: 100%;
+    }
+  }

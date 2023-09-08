@@ -1,0 +1,35 @@
+#menu{
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+    height: 1500px;
+    top:250px;
+    left: 22%;
+    margin:0px;
+    padding: 0px;
+}
+#zdjemenu{
+    margin:0px;
+    padding: 0px;
+    position: relative;
+    width:1000px;
+    height: 1500px;
+}
+@media only screen and (max-width: 600px) {
+    #menu{
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        height: 750px;
+        top:250px;
+        left: 5%;
+      
+    }
+    #zdjemenu{
+        margin:0px;
+        padding: 0px;
+        position: relative;
+        width:350px;
+        height: 700px;
+    }
+  }

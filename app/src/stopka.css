@@ -1,0 +1,67 @@
+#stopka{
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    height: 250px;
+    position: relative;
+    top: 1000px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+}
+#tou{
+position: relative;
+left:20%;
+top:80px;
+}
+#policy{
+    position: relative;
+    left:45%;
+    top:80px;
+}
+#contact1{
+    position: relative;
+    left:70%;
+    top:
+    80px;
+}
+#c1{
+    position: relative;
+    top:50px;
+    right:67px;
+
+}
+#c2{
+    width: 50px;
+    position: relative;
+    top:95px;
+    right:305px;
+}
+@media only screen and (max-width: 600px) {
+    #stopka{
+        font-size: 18px;
+        top: 900px;
+       
+    }
+    #c1{
+
+    }
+    #c2{
+        left:68%;
+        top:26px;
+    }
+    #tou{
+left:10%;
+    }
+    #policy{
+        left:30%;
+    }
+    #contact1{
+        position: relative;
+        left:-24%;
+        top:
+        150px;
+    }
+}

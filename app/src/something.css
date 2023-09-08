@@ -1,0 +1,16 @@
+#some{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top:80px;
+    text-align: center;
+    font-family: text2;
+    font-size: 80px;
+    font-weight: 500;
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: text2;
+    src: url("C:\Users\Klokk\Desktop\abiut\app\src\fonts\Martigale.otf");
+}
